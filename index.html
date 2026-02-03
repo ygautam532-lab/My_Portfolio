@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-image: url('images/gkboss.jpg');
+      font-family: 'Poppins', sans-serif;
+    }
+    .navbar {
+      background-color: lab(53.85% 13.56 -64.57);
+    }
+    .navbar-brand, .nav-link {
+      color: #fff !important;
+    }
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+      font-weight: bold;
+      color: hwb(0 96% 4%);
+      background-image: url('images/keith-misner-h0Vxgz5tyXA-unsplash.jpg');
+    }
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    
+    footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center py-5 bg-light">
+    <img src="images/IMG_20231204_124628.jpg" alt="Profile" class="profile-img mb-3">
+    <h1>Welcome to My Portfolio</h1>
+    <p class="text-muted">Data scientist | Data analyst | Bussiness analyst</p>
+    <p class="text-muted"><u>BCA in Data science and Artificial intelligence</u></p>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="container py-5">
+    <h2 class="section-title">About Me</h2>
+    <p class="text-center">
+      I am an entry-level data analyst with a strong interest in turning data into meaningful insights. I enjoy working with data to identify trends, support decision-making, and solve real problems. Through academic projects, online courses, and hands-on practice, I’ve developed skills in data cleaning, visualization, and basic statistical analysis.
+
+      I work with tools such as Excel, SQL, Python, and Power BI/Tableau, and I am always looking to expand my knowledge. I’m motivated by curiosity and continuous learning, and I aim to bring a clear, analytical approach to every project I work on.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="bg-light py-5">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="row text-center">
+        <div class="col-md-3"><h5>SQL</h5><div class="progress"><div class="progress-bar bg-success" style="width:80%"></div></div></div>
+        <div class="col-md-3"><h5>Python</h5><div class="progress"><div class="progress-bar bg-info" style="width:85%"></div></div></div>
+        <div class="col-md-3"><h5>Excel</h5><div class="progress"><div class="progress-bar bg-warning" style="width:70%"></div></div></div>
+        <div class="col-md-3"><h5>PowerBI</h5><div class="progress"><div class="progress-bar bg-danger" style="width:80%"></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="container py-5">
+    <h2 class="section-title">My Projects</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="images/Project 1 photo.jpeg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Product sales analysis</h5>
+            <p class="card-text">Analyzed a sales transaction dataset covering orders, customers, products, regions, and shipping details.
+               Generated data-driven insights by identifying sales trends, 
+               top-performing categories, regional performance, and the impact of shipping through
+                visual analysis.</p>
+            <a href="https://github.com/ygautam532-lab/Product-Sales-Analysis" class="btn btn-primary btn-sm">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="images/Project 2 photo.png" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Covid 19 Predictive analysis</h5>
+            <p class="card-text">In this Project .I Developed a COVID-19 predictive analysis model using IBM SPSS Modeler to analyze 
+              historical case data and also
+              Generated data-driven insights by forecasting future 
+              case trends through data preprocessing, 
+              visualization, and linear regression.</p>
+            <a href="https://github.com/ygautam532-lab/COVID-19-predictive-analytics-" class="btn btn-primary btn-sm">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates -->
+  <section id="certificates" class="bg-light py-5">
+    <div class="container">
+      <h2 class="section-title">Certificates</h2>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="card shadow-sm">
+            <img src="images/Gautam -Nosql certificates_page-0001 (1).jpg" class="card-img-top" alt="Certificate 1">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card shadow-sm">
+            <img src="images/Gautam - data science certificate_page-0001 (1).jpg" class="card-img" alt="Certificate 2">
+          </div>
+        </div>
+         <div class="col-md-3">
+          <div class="card shadow-sm">
+            <img src="images/Gautam-predictive fundamental certificate_page-0001.jpg" class="card-img" alt="Certificate 2">
+          </div>
+        </div>
+         <div class="col-md-3">
+          <div class="card shadow-sm">
+            <img src="images/Gautam_Python_certificate_DS33_page-0001.jpg" class="card-img" alt="Certificate 2">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Certificates -->
+  <section id="certificates" class="bg-light py-5">
+    <div class="container">
+
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="card shadow-sm">
+            <img src="images/ADCA certificate .jpeg" class="card-img-top" alt="Certificate 1">
+          </div>
+      </div>
+      <div class="col-md-3">
+          <div class="card shadow-sm">
+            <img src="images/Introduction_to_Data_Science_certificate_ygautam9628-gmail-com_c23bf832-6e01-4aab-90fc-98c4bd0675c9 (2)_page-0001.jpg" class="card-img-top" alt="Certificate 1">
+          </div>
+      </div>
+      <div class="col-md-3">
+          <div class="card shadow-sm">
+            <img src="images/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_68c55f1b81edf82e82a78b02_1769769473475_completion_certificate_page-0001.jpg" class="card-img-top" alt="Certificate 1">
+          </div>
+      </div>
+      <div class="col-md-3">
+          <div class="card shadow-sm">
+            <img src="images/certificate_page-0001.jpg" class="card-img-top" alt="Certificate 1">
+          </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  <!-- Contact -->
+  <section id="contact" class="container py-5">
+    <h2 class="section-title">Contact Me</h2>
+    <form class="col-md-6 mx-auto">
+      <div class="mb-3">
+        <label class="form-label">Name</label>
+        <h2><b>Gautam Kumar yadav</b></h2>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <h2><b>ygautam532@gmail.com</b></h2>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Phone Number</label>
+        <h2><b>9628009979</b></h2>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Whatsapp number</label>
+        <h2><b>9628009979</b></h2>
+      </div>
+      <button type="submit" class="btn btn-dark w-100"><marquee direction="Right"><b>Thank You For visit</b></marquee></button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Gautam Kumar Yadav | Portfolio</p>
+  </footer>
+</body>
+</html>
